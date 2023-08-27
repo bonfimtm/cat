@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-(async () => {
+(() => {
     if (process.argv.length === 2) {
         console.error('Expected input directory path');
         process.exit(1);
